@@ -4,7 +4,6 @@ import { ThemeContext } from './ThemeProvider';
 const LocalThemedBox = () => {
 
      const {theme} = useContext(ThemeContext);
-    // console.log(theme);
 
     const [localTheme,setLocalTheme] = useState(theme);
 
